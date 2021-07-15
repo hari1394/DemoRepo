@@ -1,0 +1,57 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 702.391 s <<< FAILURE! - in TestSuite
+setUp(com.crm.qa.testcases.HomePageTest)  Time elapsed: 603.002 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-S5UNGIC', ip: '192.168.29.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00313733+2504499]
+	Ordinal0 [0x002AC401+2081793]
+	Ordinal0 [0x001B2628+1058344]
+	Ordinal0 [0x001A4EBF+1003199]
+	Ordinal0 [0x001A3EF9+999161]
+	Ordinal0 [0x001A41B6+999862]
+	Ordinal0 [0x001A3AA5+998053]
+	Ordinal0 [0x001AA6DD+1025757]
+	Ordinal0 [0x001A3A61+997985]
+	Ordinal0 [0x001A4986+1001862]
+	Ordinal0 [0x001A3EF9+999161]
+	Ordinal0 [0x001A41B6+999862]
+	Ordinal0 [0x001A3AA5+998053]
+	Ordinal0 [0x001A990C+1022220]
+	Ordinal0 [0x001A3A61+997985]
+	Ordinal0 [0x001A4986+1001862]
+	Ordinal0 [0x001A3EF9+999161]
+	Ordinal0 [0x001A41B6+999862]
+	Ordinal0 [0x001A3AA5+998053]
+	Ordinal0 [0x0019F5DD+980445]
+	Ordinal0 [0x001A3A61+997985]
+	Ordinal0 [0x001A3800+997376]
+	Ordinal0 [0x001A3599+996761]
+	Ordinal0 [0x001B3830+1062960]
+	Ordinal0 [0x001FABB9+1354681]
+	Ordinal0 [0x001F97DA+1349594]
+	Ordinal0 [0x001F5D4B+1334603]
+	Ordinal0 [0x001D22B4+1188532]
+	Ordinal0 [0x001D3149+1192265]
+	GetHandleVerifier [0x0048FB8C+1512252]
+	GetHandleVerifier [0x0053B0DF+2214031]
+	GetHandleVerifier [0x00394BC3+484211]
+	GetHandleVerifier [0x00393E69+480793]
+	Ordinal0 [0x002B218D+2105741]
+	Ordinal0 [0x002B66E8+2123496]
+	Ordinal0 [0x002B6827+2123815]
+	Ordinal0 [0x002BFB73+2161523]
+	BaseThreadInitThunk [0x75B9FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77B87A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77B87A4E+238]
+	(No symbol) [0x00000000]
+
+	at com.crm.qa.testcases.HomePageTest.setUp(HomePageTest.java:30)
+
